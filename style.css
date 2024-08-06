@@ -50,7 +50,7 @@ left: 556px;
 footer{
     background-image:url(./FOOTER.jpg);
     height:90px;
-    width: 1020px;
+    width: 1025px;
 }
 
 div#redes{
@@ -79,20 +79,24 @@ left: 100px;
 
 
 @media (max-width:450px ){
+    body{
+        margin: auto;
+        width:450px;
+    }
     header{
         background-image: url(./responsivo/HEADER.jpg);
-        width: 400px;
+        width: 450px;
         height: 100px;
     }
 main{
     background-image: url(./responsivo/MAIN.jpg);
-    width: 400px;
+    width: 450px;
     height: 200px;
 }
 
 nav{
     position: absolute;
-    width: 400px;
+    width: 450px;
     top: 100px;
 
     
