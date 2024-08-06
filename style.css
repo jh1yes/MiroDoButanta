@@ -1,21 +1,24 @@
 
-
+body{
+    margin: auto;
+    width:1020px ;
+}
 header{
     background-image: url(./HEADER.jpg);
     height: 186px;
 }
 main{
     height: 500px;
-    width: 1200px;
+    width: 1020px;
 
 background-image: url(./MAIN.jpg);
 
 }
 nav{
-    position: absolute;
+    position: relative;
     width: 1200px;
-    top: 140px;
-    left:310px;
+    top: 130px;
+    left:300px;
     
 }
 nav a{
@@ -47,7 +50,7 @@ left: 556px;
 footer{
     background-image:url(./FOOTER.jpg);
     height:90px;
-    width: 1025px;
+    width: 1020px;
 }
 
 div#redes{
@@ -75,7 +78,7 @@ left: 100px;
 
 
 
-@media(max-device-width: 400px) {
+@media (max-width:450px ){
     header{
         background-image: url(./responsivo/HEADER.jpg);
         width: 400px;
