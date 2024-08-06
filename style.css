@@ -1,0 +1,171 @@
+
+
+header{
+    background-image: url(./HEADER.jpg);
+    height: 186px;
+}
+main{
+    height: 500px;
+    width: 1200px;
+
+background-image: url(./MAIN.jpg);
+
+}
+nav{
+    position: absolute;
+    width: 1200px;
+    top: 140px;
+    left:310px;
+    
+}
+nav a{
+    color: aliceblue;
+    margin-left: 3px;
+    font-size: 30px;
+}
+.INICIO{
+    color: blue;
+    position: absolute;
+left: 70px;
+}
+.CONHEÇA{
+    color: rgb(28, 28, 27);
+    position: absolute;
+left: 210px;
+}
+.PROPOSTAS{
+    position: absolute;
+left: 380px;
+font-size: 25px;
+top: 6px;
+}
+.CONTATO{
+    color: green;
+    position: absolute;
+left: 556px;
+}
+footer{
+    background-image:url(./FOOTER.jpg);
+    height:90px;
+    width: 1025px;
+}
+
+div#redes{
+position:relative;
+display: flex;
+left: 100px;
+}
+.iconi{
+    width: 50px;
+    margin-left: 10px;
+}
+#seção1{
+    align-items: center;
+    display: flex;
+    left: 100px;
+    top: 10px;
+}
+#seção1 h2{
+  position: relative;
+  top: 0px;
+  left: 40px;
+}
+
+
+
+
+
+@media(max-device-width: 400px) {
+    header{
+        background-image: url(./responsivo/HEADER.jpg);
+        width: 400px;
+        height: 100px;
+    }
+main{
+    background-image: url(./responsivo/MAIN.jpg);
+    width: 400px;
+    height: 200px;
+}
+
+nav{
+    position: absolute;
+    width: 400px;
+    top: 100px;
+
+    
+    
+}
+nav a{
+    color: aliceblue;
+    margin-left:0px;
+    font-size: 10px;
+}
+.INICIO{
+    border-radius: 10px;
+    background-color: rgb(205, 205, 4);
+    width: 50px;
+    color: blue;
+    position: absolute;
+    left:-280px;
+    font-size: 15px;
+}
+.CONHEÇA{
+    border-radius: 10px;
+    background-color: rgb(10, 143, 23);
+    width: 75px;
+    color: rgb(208, 221, 26);
+    position: absolute;
+left:-210px;
+font-size: 15px;
+}
+.PROPOSTAS{
+    border-radius: 10px;
+    background-color: rgb(12, 101, 179);
+    width: 90px;
+    position: absolute;
+left:-90px;
+font-size: 15px;
+top:-0.1px;
+}
+.CONTATO{
+    padding: auto;
+    border-radius: 10px;
+    background-color: aliceblue;
+    width: 70px;
+    color: green;
+    position: absolute;
+left:12px;
+font-size: 15px;
+}
+
+footer{
+    background-image:url(./FOOTER.jpg);
+    height:90px;
+    width: 400px;
+}
+
+div#redes{
+position:relative;
+display: flex;
+left: 110px;
+top: 40px;
+}
+.iconi{
+    width: 30px;
+    margin-left: 10px;
+}
+#seção1{
+    align-items: center;
+    display: flex;
+    left: 100px;
+    top: 10px;
+}
+#seção1 h2{
+    color: aliceblue;
+  position: absolute;
+  top: 300px;
+  left: 70px;
+  font-size: 20px;
+}
+
+    }
