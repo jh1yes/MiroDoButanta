@@ -4,49 +4,93 @@ body{
     width:1020px ;
 }
 header{
-    background-image: url(./HEADER.jpg);
+    border-radius: 10px ;
+    border: 2px solid rgb(7, 185, 10);
+    background-image: url(./região\ butanta\ headerr.jpg);
     height: 186px;
 }
+img#butanta {
+    border-image: 4px solid black;
+    left: 500px;
+    width: 500px;
+    position:relative;
+    top: -20px;
+    filter: drop-shadow(10px 0 30px black);
+    
+}
+
+img#nomemiro{
+    position: relative;
+    width: 800px;
+    margin-left: 100px;
+    margin-top: -10px;
+    filter: drop-shadow(10px 0 30px rgb(240, 216, 4));
+
+}
+#inicio{
+    background-color: orangered;
+
+}
+#conheça{
+    background-color: rgb(39, 184, 22);
+
+}
+#proposta{
+    background-color: rgb(0, 145, 255);
+
+}
+#contato
+    { background-color: orangered
+
+}
+.nav{
+    position: relative;
+    display: block;
+    top: 10px;
+    margin-top: 50px;
+    background-color: greenyellow;
+    width: 250px;
+    height:40px;
+    text-align: center;
+    border-radius: 20px;
+    border: 2px solid white;
+
+}
+
 main{
+    
     height: 500px;
     width: 1020px;
 
-background-image: url(./MAIN.jpg);
+background-image: url(./região\ butanta\ main.jpg);
 
+ 
 }
+
+img#miroimg{
+    position: relative;
+    top: -50px;
+    left: 600px;
+   
+}
+
+
+
 nav{
     position: relative;
     width: 1200px;
-    top: 130px;
+    top: -50px;
     left:300px;
     
 }
 nav a{
+    
     color: aliceblue;
-    margin-left: 3px;
+    margin-left: -190px;
+    margin-top: -50px;
     font-size: 30px;
 }
-.INICIO{
-    color: blue;
-    position: absolute;
-left: 70px;
-}
-.CONHEÇA{
-    color: rgb(28, 28, 27);
-    position: absolute;
-left: 210px;
-}
-.PROPOSTAS{
-    position: absolute;
-left: 380px;
-font-size: 25px;
-top: 6px;
-}
-.CONTATO{
-    color: green;
-    position: absolute;
-left: 556px;
-}
+
 footer{
     background-image:url(./FOOTER.jpg);
     height:90px;
@@ -82,14 +126,49 @@ left: 100px;
     body{
         margin: auto;
         width:450px;
+        height: 600px;
     }
     header{
-        background-image: url(./responsivo/HEADER.jpg);
+        background-image: url(./responsivo/região\ butanta\ headerr\ responsivo.jpg);
         width: 450px;
-        height: 100px;
+        height: 60px;
     }
+
+    img#nomemiro{
+        position: relative;
+        width: 400px;
+        margin-left: 30px;
+        margin-top: -10px;
+        filter: drop-shadow(10px 0 30px rgb(240, 216, 4));
+    
+    }
+
+    .nav{
+        position: relative;
+        display: block;
+        top: -20px;
+        left: -270px;
+        margin-top: 30px;
+        background-color: greenyellow;
+        width: 150px;
+        height:20px;
+        text-align: center;
+        border-radius: 20px;
+        border: 2px solid white;
+    
+    }
+    
+    img#miroimg{
+        width: 250px;
+        position: relative;
+        top: -50px;
+        left: 250px;
+
+        
+           }
+
 main{
-    background-image: url(./responsivo/MAIN.jpg);
+    background-image: url(./responsivo/main\ resp.jpg);
     width: 450px;
     height: 200px;
 }
@@ -107,43 +186,7 @@ nav a{
     margin-left:0px;
     font-size: 10px;
 }
-.INICIO{
-    border-radius: 10px;
-    background-color: rgb(205, 205, 4);
-    width: 50px;
-    color: blue;
-    position: absolute;
-    left:-280px;
-    font-size: 15px;
-}
-.CONHEÇA{
-    border-radius: 10px;
-    background-color: rgb(10, 143, 23);
-    width: 75px;
-    color: rgb(208, 221, 26);
-    position: absolute;
-left:-210px;
-font-size: 15px;
-}
-.PROPOSTAS{
-    border-radius: 10px;
-    background-color: rgb(12, 101, 179);
-    width: 90px;
-    position: absolute;
-left:-90px;
-font-size: 15px;
-top:-0.1px;
-}
-.CONTATO{
-    padding: auto;
-    border-radius: 10px;
-    background-color: aliceblue;
-    width: 70px;
-    color: green;
-    position: absolute;
-left:12px;
-font-size: 15px;
-}
+
 
 footer{
     background-image:url(./FOOTER.jpg);
