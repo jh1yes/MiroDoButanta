@@ -126,7 +126,7 @@ left: 100px;
     body{
         margin: auto;
         width:450px;
-        height: 600px;
+        height: 800px;
     }
     header{
         background-image: url(./responsivo/região\ butanta\ headerr\ responsivo.jpg);
@@ -159,10 +159,10 @@ left: 100px;
     }
     
     img#miroimg{
-        width: 250px;
+        width: 400px;
         position: relative;
         top: -50px;
-        left: 250px;
+        left: 120px;
 
         
            }
@@ -170,7 +170,7 @@ left: 100px;
 main{
     background-image: url(./responsivo/main\ resp.jpg);
     width: 450px;
-    height: 200px;
+    height: 350px;
 }
 
 nav{
