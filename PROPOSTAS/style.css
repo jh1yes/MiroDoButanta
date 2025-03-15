@@ -71,7 +71,8 @@ a#contato{
     padding: 3px;
     border-radius: 10px;
     text-decoration: none;
-}-------------------------------MAIN MEIO ----------------------------*/
+}
+/*-------------------------------MAIN MEIO ----------------------------*/
 
 
 main{
@@ -83,8 +84,8 @@ main{
 /*-------------------------IMAGEM BUTANTÃ-----------------------------------------*/
 
 img#imgbutanta{
-    position: absolute;
-    
+    position: relative;
+margin-top: -25px;
     width: 1200px;
     height: 499px;
     
@@ -115,23 +116,57 @@ img#miropng{
 /*----------------------------frazeMeio------------------------------*/
 
 #frazeMeio{
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    width: 500px;
     position: absolute;
-    background-color: rgb(245, 147, 9);
-    color: aliceblue;
-    top: 160px;
-    margin-left: 3px;
+    background-color: rgba(245, 147, 9, 0.333);
+    color: rgb(6, 38, 66);
+    top: 260px;
+   left: 600px;
     z-index: 1;
     font-size: 20.4px;
-
+}
+/*--------------------------------SEÇÃO---------------------------------*/
+section{
+    display: flex;
 
 }
-footer{
 
+.pro{
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    border-radius: 10px;
+    background-color: rgba(17, 153, 237, 0.572);
+    padding: 3px;
+    width: 500px;
+    height: 500px;
+    margin: 2px;
+}
+
+div#educacao h2{
+    color: antiquewhite;
+    font-size: 20px;
+    text-align: center;
+        
+}
+div#educacao h3{
+    font-size: 15px;
+    text-align: center;
+        
+}
+div#educacao p{
+    font-size: 18px;
+    text-align: center;
+}
+
+footer{
     background-image: url(./região\ butanta\ headerr.jpg);
     display:flex;
     border: 2px solid orangered;
     background-color: rgb(254, 255, 255);
-    margin-top: -100px;
+    margin-top: -1px;
 }
 
 img#miroPqn{
@@ -157,20 +192,14 @@ p#mensagemF{
     margin-left: 30px;
 }
 
-
-
-
-
-/*---------------------------------------------------------------------------*/
-
-
 @media (max-width:450px ){
     
     body{
         margin: auto;
         width: 450px;
+        height: 800px;
         position: relative;
-        background-color: rgb(27, 200, 30);
+        background-color: rgb(92, 127, 216);
     }
     
     
@@ -218,7 +247,7 @@ p#mensagemF{
         position: relative;
         margin-left: 300px;
         left: -579px;
-        top: 66px;
+        top: 54px;
     }
     
     a{
@@ -229,10 +258,11 @@ p#mensagemF{
     a#inicio{
         
         background-color: rgb(234, 156, 23);
-        border: 5px solid white;
+        
     }
     a#propostas{
         background-color: rgb(17, 122, 213);
+        border: 5px solid rgb(248, 117, 52);
     }
     a#contato{
         background-color: rgb(66, 185, 11);
@@ -244,8 +274,7 @@ p#mensagemF{
         border-radius: 10px;
         text-decoration: none;
     }-------------------------------MAIN MEIO ----------------------------*/
-    
-    
+
     main{
         position: relative;
     }
@@ -255,20 +284,19 @@ p#mensagemF{
     /*-------------------------IMAGEM BUTANTÃ-----------------------------------------*/
     
     img#imgbutanta{
-        position: absolute;
+        position: relative;
+        margin-top: 3px;
         width: 450px;
-        height: 499px;
+        height: 250px;
         
     }
     
     /*----------------------------IMAGEM DO NOME MIRO MEIO--------------------*/
     img#nome1{
-        
         position: absolute;
         z-index: 1;
-        width: 450px;
-        left:3PX;
-        top: 70px;
+        width: 800px;
+        left: -10PX;
         
     }
     /*------------------------------------------------------------------------------*/
@@ -278,9 +306,9 @@ p#mensagemF{
     
     img#miropng{
         position: relative;
-        width: 400px;
-        top: 100px;
-        left: 30px;
+        width: 600px;
+        top: -103px;
+        left: 720px;
     
     }
     /*---------------------------------------------------------------------------------*/
@@ -288,32 +316,64 @@ p#mensagemF{
     /*----------------------------frazeMeio------------------------------*/
     
     #frazeMeio{
-        position: absolute;
-        background-color: rgb(15, 122, 230);
-        color: aliceblue;
-        top:140px;
-        margin-left: 3px;
-        z-index: 1;
-        width: 400px;
-        font-size: 10px;
+        padding: 20px;
         text-align: center;
-        left: 25px;
-            
+        border-radius: 10px;
+        width: 200px;
+        position: absolute;
+        background-color: rgba(245, 147, 9, 0.333);
+        color: rgb(6, 38, 66);
+        top: 120px;
+        left: 180px;
+        z-index: 1;
+        font-size: 10px;
+    }
+    /*--------------------------------SEÇÃO---------------------------------*/
+    section{
+        display: flex;
+        width: 450px;
+        
     
     }
+    
+    .pro{
+        position: relative;
+        border-top: 1px solid white;
+        border-bottom: 1px solid white;
+        border-radius: 10px;
+        background-color: rgba(17, 153, 237, 0.572);
+        padding: 3px;
+        width: 70px;
+        height: 300px;
+        margin: 2px;
+    }
+    div#educacao{
+        width: 200px;
+    }
 
-
-
-
-
-
+    div#educacao h2{
+        color: antiquewhite;
+        font-size: 8px;
+        text-align: center;
+            
+    }
+    div#educacao h3{
+        font-size: 6px;
+        text-align: center;
+            
+    }
+    div#educacao p{
+        font-size: 9px;
+        text-align: center;
+    }
+    
     footer{
         position: relative;
         background-image: url(./região\ butanta\ headerr.jpg);
         display:flex;
         border: 2px solid orangered;
         background-color: rgb(254, 255, 255);
-        top: 195px;
+        top: 5px;
         height: 50px;
     }
     
@@ -348,23 +408,6 @@ div#redes{
         border-radius: 10px;
         background-color: blue;
         left: 10px;
-        top: 30px;
+        top: 120px;
     }
-    
-    form{
-        font-size: 20px;
-        padding: 30px;
-        position:absolute;
-        border: 1px solid yellow;
-        width: 500px;
-        left: 125px;
-        top: 110px;
-    }
-    form input,textarea{
-        font-size: 40px;
-    }
-
-
-
-
 }

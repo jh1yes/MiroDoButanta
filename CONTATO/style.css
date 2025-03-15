@@ -61,9 +61,11 @@ a#inicio{
 }
 a#propostas{
     background-color: rgb(17, 122, 213);
+    
 }
 a#contato{
     background-color: rgb(66, 185, 11);
+    border: 5px solid white;
 }
 
 .a{
@@ -86,7 +88,7 @@ img#imgbutanta{
     position: absolute;
     
     width: 1200px;
-    height: 499px;
+    height: 599px;
     
 }
 
@@ -131,7 +133,7 @@ footer{
     display:flex;
     border: 2px solid orangered;
     background-color: rgb(254, 255, 255);
-    margin-top: -100px;
+    margin-top: 600px;
 }
 
 img#miroPqn{
@@ -157,11 +159,31 @@ p#mensagemF{
     margin-left: 30px;
 }
 
+form{
+    font-size: 20px;
+    padding: 30px;
+    position:absolute;
+    border: 1px solid yellow;
+    width: 500px;
+    left: 125px;
+    top: 110px;
+}
+form input,textarea{
+    font-size: 40px;
+}
 
 
 
 
-/*---------------------------------------------------------------------------*/
+
+
+/*---------------------------------------------------------------------*/
+
+
+
+
+
+
 
 
 @media (max-width:450px ){
@@ -229,7 +251,6 @@ p#mensagemF{
     a#inicio{
         
         background-color: rgb(234, 156, 23);
-        border: 5px solid white;
     }
     a#propostas{
         background-color: rgb(17, 122, 213);
@@ -256,19 +277,17 @@ p#mensagemF{
     
     img#imgbutanta{
         position: absolute;
-        width: 450px;
-        height: 499px;
         
+        width: 450px;
+        height: 250px;        
     }
     
     /*----------------------------IMAGEM DO NOME MIRO MEIO--------------------*/
     img#nome1{
-        
         position: absolute;
         z-index: 1;
-        width: 450px;
-        left:3PX;
-        top: 70px;
+        width: 800px;
+        left: -10PX;
         
     }
     /*------------------------------------------------------------------------------*/
@@ -278,9 +297,9 @@ p#mensagemF{
     
     img#miropng{
         position: relative;
-        width: 400px;
-        top: 100px;
-        left: 30px;
+        width: 600px;
+        top: -103px;
+        left: 720px;
     
     }
     /*---------------------------------------------------------------------------------*/
@@ -289,31 +308,22 @@ p#mensagemF{
     
     #frazeMeio{
         position: absolute;
-        background-color: rgb(15, 122, 230);
+        background-color: rgb(245, 147, 9);
         color: aliceblue;
-        top:140px;
+        top: 160px;
         margin-left: 3px;
         z-index: 1;
-        width: 400px;
-        font-size: 10px;
-        text-align: center;
-        left: 25px;
-            
+        font-size: 20.4px;
+    
     
     }
-
-
-
-
-
-
     footer{
         position: relative;
         background-image: url(./região\ butanta\ headerr.jpg);
         display:flex;
         border: 2px solid orangered;
         background-color: rgb(254, 255, 255);
-        top: 195px;
+        top: 5px;
         height: 50px;
     }
     
@@ -350,21 +360,18 @@ div#redes{
         left: 10px;
         top: 30px;
     }
-    
+
     form{
         font-size: 20px;
         padding: 30px;
         position:absolute;
         border: 1px solid yellow;
-        width: 500px;
-        left: 125px;
-        top: 110px;
+        width: 350px;
+        left: 20px;
+        top: 290px;
     }
     form input,textarea{
-        font-size: 40px;
+        font-size: 30px;
     }
-
-
-
 
 }
