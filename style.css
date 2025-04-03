@@ -4,8 +4,7 @@
     margin: 0;
 }
 #interface{
-    margin: auto;
-    
+   background-color: aqua;
    
 }
 #header{
@@ -17,27 +16,34 @@
 }
 
 #corpo{
-    display: flex;
-    justify-content: center;
+    position: relative;
     background-image: url(./home/região\ butanta.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 div#nome1{
-   width: 400px;
-   height: 400px;
+  
+   flex-direction: column;
+   width: 100%;
+   height: auto;
    display: flex;
-    align-items:center ;
+   align-items:center;
 }
+
+div#miro{
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+}
+    
 img#miro{
-    position: relative;
-    z-index: 1;
+    
+margin-top: -110px;
 }
 
 img#nome1{
-    position: absolute;
-    max-width: 100%;
-    z-index: 0;
+   max-width: 100%;
+    
 }
 
