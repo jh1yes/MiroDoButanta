@@ -70,3 +70,75 @@ img#nome1{
     
 }
 
+/*-------------------------------------propostas------------------------------------------------------------------------------------------------------------------------*/
+
+
+#propostas{
+    margin-top: 10px;
+    width: 100%;
+    height: 100%;
+    background-image: url(./home/quebrada.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#sec1{
+ width: 100%;
+display: flex;
+flex-wrap:wrap;
+}
+
+#h2conheça{
+    margin-top: 0px;
+    text-align: center;
+    font-size: 40px;
+    color:rgb(242, 121, 8);
+    }
+
+    #frazeConheça{
+        display: flex;
+        width: 400px;
+        background-color: blue;
+        
+    }
+
+Div#conheça{
+    width: 100%;
+    height: 500px;
+    background-image: url(./PROPOSTAS/meio22.png);
+}
+ 
+#h2proposta{
+    margin-top: 0px;
+    text-align: center;
+    font-size: 40px;
+    color:green;
+    
+
+}
+
+
+.proposta{
+    padding:15px;
+    border-radius: 10px;
+    margin-top: 2px;
+    margin-left: 32px;
+    margin-right: 2px;
+    margin-bottom: 10px;
+    width: 300px;
+    height: 300px;
+    background-color: aquamarine;
+}
+
+
+#sec1 h3{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+h4{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
